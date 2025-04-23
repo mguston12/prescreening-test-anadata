@@ -1,5 +1,19 @@
 # Screening Test - CRUD API with JWT (Go + PostgreSQL)
 
+Requirements
+Sebelum menjalankan aplikasi ini, pastikan Anda telah menginstal:
+```bash
+Go 1.23
+
+Docker
+
+Docker Compose
+
+Git
+
+Postman (opsional, untuk testing API)
+```
+
 ## 🛠️ Installation
 
 ### 1. Clone Repository
