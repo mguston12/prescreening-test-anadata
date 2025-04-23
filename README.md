@@ -5,7 +5,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourname/your-repo.git
+git clone (https://github.com/mguston12/prescreening-test-anadata.git)
 cd go-project
 go mod init
 go mod tidy
