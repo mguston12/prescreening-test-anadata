@@ -12,12 +12,20 @@ go mod tidy
 ```
 
 ### 2. Buat .env file
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=cruddb
+PORT=8080
+
+DB_HOST=localhost
+
 DB_PORT=5432
-DB_HOST=db
-JWT_SECRET=your_jwt_secret
+
+DB_USER=postgres
+
+DB_PASSWORD=p4ssw0rd
+
+DB_NAME=testing
+
+JWT_SECRET=testing_jwt_secret
+
 
 ### 3. Run with Docker Compose 
 ```bash
