@@ -59,6 +59,7 @@ Testing API Menggunakan POSTMAN
 BASEURL = http://localhost:8080
 
 1. Register (/register)
+ ```
 URL: http://localhost:8080/register
 Method: POST
 Body : JSON
@@ -67,9 +68,11 @@ Body : JSON
   "email": "john@example.com",
   "password": "secret123"
 }
+```
 
 
 2. Login (/login)
+```
 URL: http://localhost:8080/login
 Method: POST
 Body : JSON 
@@ -79,20 +82,26 @@ Body : JSON
 }
 
 API Login akan mengembalikan token yang akan digunakan untuk API lainnya yang digunakan untuk header Authorization <JWT_TOKEN>
+```
 
 3. GetAllUsers
+```
 URL: http://localhost:8080/api/users
 Method: GET
 Headers:
 Authorization: Bearer <JWT_TOKEN>
+```
 
 4. GetUserByID
+```
 URL: http://localhost:8080/api/users/{id}
 Method: GET
 Headers:
 Authorization: Bearer <JWT_TOKEN>
+```
 
 5. UpdateUser 
+```
 URL: http://localhost:8080/api/users/{id}
 Method: PUT
 Headers:
@@ -102,9 +111,12 @@ Body : JSON
   "name": "John New",
   "email": "johnnew@example.com"
 }
+```
 
 6. DeleteUser
+```
 URL: http://localhost:8080/api/users/{id}
 Method: DELETE
 Headers:
 Authorization: Bearer <JWT_TOKEN>
+```
